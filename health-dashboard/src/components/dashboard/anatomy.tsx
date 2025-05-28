@@ -5,7 +5,7 @@ import { overlay_components_data } from "../../data/healthdata";
 function AnatomySection() {
   return (
     <div className="anatomy-section">
-        <img src="/src/assets/anatomy.png" alt="Anatomy" className="anatomy-image" />
+        <img src="/anatomy.png" alt="Anatomy" className="anatomy-image" />
 
         <LeftHealthIndicatorOverlay 
         title={overlay_components_data[0].title}
