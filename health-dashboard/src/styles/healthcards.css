@@ -1,0 +1,149 @@
+
+.health-status-card-image{
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+}
+.health-status-card{
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: small;
+}
+
+.health-cards-container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+}
+.health-cards{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.health-card-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: rgba(0,48,135);
+  font-size: small;
+}
+
+
+.progress-container{
+  width: 100%;
+  height: 10px;
+  background-color: rgba(0, 48, 135, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar{
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* Tablets */
+@media (min-width: 768px) {
+  
+.health-status-card-image{
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+}
+.health-status-card{
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: small;
+}
+
+.health-cards-container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+}
+.health-cards{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.health-card-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: rgba(0,48,135);
+  font-size: small;
+}
+
+.progress-container{
+  width: 100%;
+  height: 10px;
+  background-color: rgba(0, 48, 135, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar{
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+}
+
+
+
+/* Laptops */
+
+@media (min-width: 1200px) {
+    
+.health-status-card-image{
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+}
+.health-status-card{
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: small;
+}
+
+.health-cards-container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+}
+.health-cards{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.health-card-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: rgba(0,48,135);
+  font-size: small;
+}
+
+.progress-container{
+  width: 100%;
+  height: 10px;
+  background-color: rgba(0, 48, 135, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar{
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+}

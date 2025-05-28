@@ -1,0 +1,157 @@
+/* Mobile */
+
+
+.anatomy-section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  position: relative;
+}
+
+.anatomy-image{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.health-indicator-overlay-right{
+display: flex;
+flex-direction: row;
+
+font-size: x-small;
+
+
+}
+
+.health-indicator-overlay-left{
+display: flex;
+flex-direction: row;
+
+font-size: x-small;
+
+
+}
+
+.overlay-image{
+height: 15px;
+width: 15px;
+
+}
+
+.overlay-scanner{
+height: 20px;
+width: 20px;
+padding: 3px 0 3px 0;
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+ 
+.anatomy-section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  position: relative;
+}
+
+.anatomy-image{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.health-indicator-overlay-right{
+display: flex;
+flex-direction: row;
+
+font-size: x-small;
+
+
+}
+
+.health-indicator-overlay-left{
+display: flex;
+flex-direction: row;
+
+font-size: x-small;
+
+
+}
+
+.overlay-image{
+height: 15px;
+width: 15px;
+
+}
+
+.overlay-scanner{
+height: 20px;
+width: 20px;
+padding: 3px 0 3px 0;
+} 
+    
+}
+
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+.anatomy-section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  position: relative;
+}
+
+.anatomy-image{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.health-indicator-overlay-right{
+display: flex;
+flex-direction: row;
+
+font-size: x-small;
+
+
+}
+
+.health-indicator-overlay-left{
+display: flex;
+flex-direction: row;
+
+font-size: x-small;
+
+
+}
+
+.overlay-image{
+height: 15px;
+width: 15px;
+
+}
+
+.overlay-scanner{
+height: 20px;
+width: 20px;
+padding: 3px 0 3px 0;
+}
+    
+}

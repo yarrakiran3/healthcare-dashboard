@@ -1,5 +1,5 @@
 import EachDayActivity from "./eachdayactivity";
-
+import '../../styles/activity.css'
 export default function ActivityComponent({numberofappointments}:{numberofappointments:number}) {
   return (
     <div className="activity">

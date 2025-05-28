@@ -1,6 +1,6 @@
 import { LeftHealthIndicatorOverlay, RightHealthIndicatorOverlay } from "./overlayelement";
 import { overlay_components_data } from "../../data/healthdata";
-
+import '../../styles/anatomy.css';
 
 function AnatomySection() {
   return (
