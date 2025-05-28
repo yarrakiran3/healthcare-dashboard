@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Profile(){
   return (
-    <div className="profile">
+    <div >
       
       <FontAwesomeIcon icon={faUser} style={{backgroundColor:"#33efe5",padding:"10px",color:"black",borderRadius:'8px'}}/>
       

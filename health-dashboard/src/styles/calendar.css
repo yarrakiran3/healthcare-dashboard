@@ -1,11 +1,6 @@
 /* Mobile */
-.profile{
-  
-  display: flex;
-  justify-content:flex-end ;
-  margin-right: 10px;
-  padding: 10px;
-
+.calendar-profile{
+display: none;
 }
 
 .calendar{
@@ -25,7 +20,7 @@
 .calendar-day{
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 6px;
   font-size: x-small;
   border-radius: 10px;
   text-align: center;
@@ -38,16 +33,16 @@
 }
 
 .appointments{
-  display:flex;
-  flex-direction: row;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);;
   gap:20px;
   padding:5px 20px 5px 20px;
   
 }
 
 .simple-appoitment-cards{
-  display:flex;
-  flex-direction: row;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
   gap:20px;
   padding:10px;
 }
@@ -71,6 +66,15 @@
   height: 20px;
   width: 20px;
   overflow: hidden;
+}
+.upcoming-schedule{
+  padding:5px 20px 10px 20px;
+  color: rgba(0, 48, 135, 1);
+}
+
+.eachday-listing{
+  padding: 5px;
+  font-size: small;
 }
 
 

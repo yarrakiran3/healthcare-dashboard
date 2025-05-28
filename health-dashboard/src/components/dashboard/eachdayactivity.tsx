@@ -17,7 +17,7 @@ export default function EachDayActivity({ day }: { day: string }) {
           </div>
         </div>
         
-        <div style={{textAlign:"center"}}>
+        <div >
             {day}
         </div>
     </div>

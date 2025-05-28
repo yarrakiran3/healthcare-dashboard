@@ -4,14 +4,17 @@
   flex-direction: column;
   padding: 6px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .day-activity-bars {
   display: flex;
   flex-direction: row;
+  
   height: 70px;
-  width: 100%;
-  gap:8px
+  width: 40%;
+  gap:8px;
+  
 }
 
 .day-activity-bar1 {
@@ -62,11 +65,12 @@
 }
 
 .activity-body{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  gap: 5px;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+  gap: 20px;
+  justify-content: space-around;
+  
 }
 
 
@@ -79,6 +83,7 @@
   flex-direction: column;
   padding: 6px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .day-activity-bars {
@@ -157,6 +162,7 @@
   flex-direction: column;
   padding: 6px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .day-activity-bars {

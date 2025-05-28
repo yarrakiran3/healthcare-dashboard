@@ -10,25 +10,25 @@ export default function ActivityComponent({numberofappointments}:{numberofappoin
        
         <div className="activity-body">
            
-                <div className="day-activity">
+                <div >
                     <EachDayActivity day="Mon"/>
                 </div>
-                <div className="day-activity">
+                <div >
                     <EachDayActivity day="Tue"/>
                 </div>
-                <div className="day-activity">
+                <div >
                     <EachDayActivity day="Wed"/>
                 </div>
-                <div className="day-activity">
+                <div >
                     <EachDayActivity day="Thu"/>
                 </div>
-                <div className="day-activity">
+                <div >
                     <EachDayActivity day="Fri"/>
                 </div>
-                <div className="day-activity">
+                <div >
                     <EachDayActivity day="Sat"/>
                 </div>
-                <div className="day-activity">
+                <div >
                     <EachDayActivity day="Sun"/>
                 </div>
         </div>

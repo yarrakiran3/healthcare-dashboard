@@ -7,7 +7,9 @@ import '../styles/calendar.css'
 export default function CalendarMainComponent() {
   return (
     <div className="calendar">
+        <div className="calendar-profile">
         <Profile/>
+        </div>
         <CalendarView/>
         <Appointments/>
         <UpcomingSchedule/>

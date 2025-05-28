@@ -4,7 +4,7 @@
 .anatomy-section{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   padding: 5px;
   background-color: rgba(0, 48, 135, 0.05);
   border-radius: 20px;
@@ -22,7 +22,6 @@
 .health-indicator-overlay-right{
 display: flex;
 flex-direction: row;
-
 font-size: x-small;
 
 
@@ -31,9 +30,7 @@ font-size: x-small;
 .health-indicator-overlay-left{
 display: flex;
 flex-direction: row;
-
 font-size: x-small;
-
 
 }
 

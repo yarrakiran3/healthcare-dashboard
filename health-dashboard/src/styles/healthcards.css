@@ -14,14 +14,17 @@
 .health-cards-container{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
+  
   gap: 10px;
+  
 }
 .health-cards{
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 10px;
+  
 }
 .health-card-details{
   display: flex;
