@@ -3,7 +3,7 @@ import HealthCareLogo from "../assets/logo"
 import SideElement from "./sidebar/sideelement"
 import SideList from "./sidebar/sidelist"
 import { navdata } from "../data/sidebardata"
-
+import '../styles/sidebar.css'
 function Sidebar() {
   return (
     <div className="sidebar">

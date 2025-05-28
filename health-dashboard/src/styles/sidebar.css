@@ -1,0 +1,24 @@
+
+ /* Mobile */
+.logo {
+  font-weight: bold;
+  font-size: medium;
+}
+
+
+
+/* Tablets  */
+@media (min-width: 768px) {
+.logo {
+  font-weight: bold;
+  font-size: large;
+}
+
+
+
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+
+}

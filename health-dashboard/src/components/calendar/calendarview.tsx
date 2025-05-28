@@ -1,4 +1,4 @@
-import { faArrowLeft, faArrowRight, faLeftLong, faRightLong } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { days_in_calendar } from "../../data/calendar";
 import CalendarDay from "./calendardayview";

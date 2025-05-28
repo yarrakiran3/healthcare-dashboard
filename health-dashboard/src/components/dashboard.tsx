@@ -5,7 +5,7 @@ import HealthCards from "./dashboard/healthcards";
 import SearchBar from "./dashboard/searchbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
+import '../styles/dashboard.css';
 
 export default function DashboardMainComponent() {
   return (
