@@ -15,7 +15,7 @@ export default function DashboardMainComponent() {
         <div style={{fontWeight:'bold',fontSize:'large'}}>
           Dashboard
         </div>
-        <div style={{fontSize:'x-small',padding:"8px 0 0 0"}}>
+        <div style={{fontSize:'x-small',padding:"8px 20px 0 0"}}>
           This Week<FontAwesomeIcon icon={faChevronDown} />
           
         </div>

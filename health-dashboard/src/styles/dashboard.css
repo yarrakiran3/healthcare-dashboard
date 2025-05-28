@@ -55,7 +55,7 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 90%;
   
 }
 
@@ -81,6 +81,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 5px 10px 5px 10px;
+  
 }
 
 

@@ -14,8 +14,11 @@ function App() {
     </div>
     <div className='app'>
       <Sidebar/>
-      <DashboardMainComponent/>
-      <CalendarMainComponent/>
+      
+      <div className='app-main'>
+        <DashboardMainComponent/>
+        <CalendarMainComponent/>
+      </div>
     </div>
     </>
   )
