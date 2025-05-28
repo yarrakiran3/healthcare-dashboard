@@ -10,16 +10,27 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  
+  width: 90%;
+}
+
+.search-icon{
+  width: 5%;
 }
 
 
+.search-input{
+  border: none ;
+  outline: none;
+  padding: 0 10px 0 10px;
+  width: 80%;
+}
 
 .dashboard-content{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   gap: 10px;
+  width: 95%;
  
 }
 .dashboard-header{
@@ -47,6 +58,15 @@
   
 }
 
+.search-icon{
+  width: 5%;
+}
+.search-input{
+  border: none ;
+  outline: none;
+  padding: 0 10px 0 10px;
+  width: 80%;
+}
 
 .dashboard-content{
   display: flex;
@@ -70,14 +90,22 @@
 
 
 .search-bar{
-  
+  width: 95%;
   padding:10px;
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   
 }
-
+.search-icon{
+  width: 5%;
+}
+.search-input{
+  border: none ;
+  outline: none;
+  padding: 0 10px 0 10px;
+  width: 85%;
+}
 
 .dashboard-content{
   display: flex;

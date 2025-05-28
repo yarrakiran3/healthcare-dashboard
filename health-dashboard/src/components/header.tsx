@@ -1,6 +1,5 @@
 import HealthCareLogo from "../assets/logo";
 import Profile from "./calendar/profile";
-import '../styles/header.css';
 export default function HeaderForMobile() {
   return (
     <div className="app-header-mobile">
