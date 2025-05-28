@@ -1,0 +1,370 @@
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+ /* Mobile */
+.logo {
+  font-weight: bold;
+  font-size: medium;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+/* Tablets  */
+@media (min-width: 768px) {
+.logo {
+  font-weight: bold;
+  font-size: large;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+  
+.logo {
+  
+  font-weight:800;
+  font-size: x-large;
+}
+
+
+.search-bar{
+  
+  padding:10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.profile{
+  
+  display: flex;
+  justify-content:flex-end ;
+  margin-right: 10px;
+  padding: 10px;
+
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+}
+
+.app{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 95vh;
+  
+}
+
+.sidebar{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 14px;
+  color:rgba(0,0,0,0.5)
+
+}
+
+.side-main-options{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  margin-top: 20px;
+}
+
+.side-element{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  
+}
+
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 10px;
+  color: rgba(0, 48, 135, 1);
+  background-color: rgb(255, 255, 255);
+  
+  
+}
+.dashboard-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+ 
+}
+.dashboard-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px 5px 10px;
+}
+.anatomy-section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  position: relative;
+}
+
+.anatomy-image{
+  height: 100%;
+  width: 100%;
+}
+
+
+.progress-container{
+  width: 100%;
+  height: 10px;
+  background-color: rgba(0, 48, 135, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar{
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.health-status-card{
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: small;
+}
+.detailed-appointment-card{
+  background-color: rgba(0, 48, 135, 0.2);
+  border-radius: 30px;
+  padding: 15px 20px 15px 20px;
+  font-size:x-small;
+  
+}
+
+.simple-appointment-card{
+  background-color: rgba(0, 48, 135, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: x-small;
+}
+
+.appointment-card-image{
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+}
+.health-status-card-image{
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+}
+.health-cards-container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+}
+.health-cards{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.health-card-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: rgba(0,48,135);
+  font-size: small;
+}
+.calendar{
+  display:flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.day-activity{
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  border-radius: 20px;
+}
+
+.day-activity-bars {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 100%;
+  gap:8px
+}
+
+.day-activity-bar1 {
+  width: 5px;
+  height: 100%;
+  background-color:rgba(0,48,135,0.2);
+  border-radius: 10px;
+}
+
+.day-activity-bar2 {
+ 
+  width: 5px;
+  height: 60%;
+  background-color: rgba(0,48,135,0.2);
+  border-radius: 10px;
+}
+
+.day-activity-bar3 {
+  
+  width: 5px;
+  height: 100%;
+  background-color: rgba(0,48,135,0.2);
+  border-radius: 10px;
+}
+
+.day-activity-bar4 {
+ 
+  width: 5px;
+  height: 30%;
+  background-color: rgba(0,48,135,0.2);
+  border-radius: 10px;
+}
+
+.activity{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px 10px 5px;
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(0, 48, 135, 0.05);
+  border-radius: 20px;
+  font-size: small;
+}
+
+.activity-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.activity-body{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 5px;
+
+}
+
+.appointments{
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+  padding:5px 20px 5px 20px;
+  
+}
+
+.simple-appoitment-cards{
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+  padding:10px;
+}
+
+.upcoming-schedule{
+  padding:5px 20px 10px 20px;
+  color: rgba(0, 48, 135, 1);
+}
+
+.eachday-listing{
+  padding: 5px;
+  font-size: small;
+}
+
+.calendar{
+  font-size: small;
+}
+.calendar-view{
+  padding:10px 20px 10px 20px;
+  color: rgba(0,48,135,1);
+  font-weight: bold;
+}
+.calender-view-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: large;
+}
+.calendar-day{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: x-small;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.calendar-week-view{
+  display: flex;
+  flex-direction: row;
+  gap:10px
+}
+
+.health-indicator-overlay-right{
+display: flex;
+flex-direction: row;
+
+font-size: x-small;
+
+
+}
+
+.health-indicator-overlay-left{
+display: flex;
+flex-direction: row;
+
+font-size: x-small;
+
+
+}
+
+.overlay-image{
+height: 15px;
+width: 15px;
+
+}
+
+.overlay-scanner{
+height: 20px;
+width: 20px;
+padding: 3px 0 3px 0;
+}
+}
