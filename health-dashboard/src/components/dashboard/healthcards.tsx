@@ -3,6 +3,7 @@ import { health_status_card_data } from "../../data/healthdata"
 import HealthStatusCardComponent from "./healthstatuscard"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import '../../styles/healthcards.css'
+
 function HealthCards() {
   return (
     

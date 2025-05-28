@@ -26,12 +26,10 @@ export const overlay_components_data=[
     {
         title:"Healthy Leg",
         imageUrl:"/appointments/leg.png",
-        top:67,
-        left:10
+        
     },{
         title:"Healthy Heart",
         imageUrl:"/appointments/heart.png",
-        top:22,
-        left:54
+        
     }
 ]

@@ -1,8 +1,8 @@
 
-export function LeftHealthIndicatorOverlay({title,imageUrl,x,y}:{title:string,imageUrl:string,x:number,y:number}) {
+export function LeftHealthIndicatorOverlay({title,imageUrl}:{title:string,imageUrl:string}) {
   return (
     <div className="health-indicator-overlay-right" 
-        style={{position:"absolute",top:`${x}%`,left:`${y}%`}}>
+        >
             
             <div style={{backgroundColor:'#33efe5',color:'rgba(0,48,135,1)',display:'flex',flexDirection:'row',padding:'5px',borderRadius:'10px'}}>
                 <img src={imageUrl} className="overlay-image"/>
@@ -14,9 +14,9 @@ export function LeftHealthIndicatorOverlay({title,imageUrl,x,y}:{title:string,im
     </div>
   )
 }
-export function RightHealthIndicatorOverlay({title,imageUrl,x,y}:{title:string,imageUrl:string,x:number,y:number}) {
+export function RightHealthIndicatorOverlay({title,imageUrl}:{title:string,imageUrl:string}) {
   return (
-    <div className="health-indicator-overlay-left" style={{position:"absolute",top:`${x}%`,left:`${y}%`}}>
+    <div className="health-indicator-overlay-left" >
             
             <img src="/scanner.png" alt="scanner" className="overlay-scanner"/>
             
